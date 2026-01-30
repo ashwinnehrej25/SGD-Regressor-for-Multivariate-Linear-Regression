@@ -21,7 +21,7 @@ Program to implement the multivariate linear regression model for predicting the
 Developed by: K.Ashwin Nehrej
 RegisterNumber: 25015594 
 */
-```
+
 from sklearn.linear_model import SGDRegressor
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ plt.ylabel("Predicted y")
 plt.title("Actual vs Predicted (SGDRegressor)")
 plt.plot([y.min(), y.max()], [y.min(), y.max()], 'r--')  # Perfect prediction line
 plt.show()
-
+```
 ## Output:
 
 <img width="783" height="586" alt="Screenshot 2026-01-30 141031" src="https://github.com/user-attachments/assets/0f368c6c-81d1-42d0-b3bc-4716cf3647d6" />
